@@ -11,6 +11,7 @@ data.forEach((ufoReport) => {
 
     })
 })
+
 button = d3.select("#filter-btn")
 button.on("click", function () {
     d3.event.preventDefault()
